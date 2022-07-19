@@ -13,6 +13,7 @@ The main purpose of this project was to test an external auction system using te
 #### Integration Tests
 #### Test-Driven-Development
 #### Pipelines
+  ##### Were written for GitLab CI/CD Pipelines
 #### JaCoCo
 
 ## UI Testing
