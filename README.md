@@ -1,5 +1,20 @@
-# Team B
+# Testing techniques (Black-Box Testing, White-Box testing, Integration Testing, Unit Testing, Test-Driver-Development, UI Testing, Pipelines) using Java Maven
+The main purpose of this project was to test an external auction system using testing methods provided above.
 
- [![pipeline status](https://gitlab.inf.unibz.it/ttst2122_secondyear/team-b/badges/main/pipeline.svg)](https://gitlab.inf.unibz.it/ttst2122_secondyear/team-b/-/commits/main)
+## Black-Box Testing
+### Tools used:
+#### User stories
+#### Acceptance tests
+#### FitNesse
 
-[![coverage](https://gitlab.inf.unibz.it/ttst2122_secondyear/team-b/badges/main/coverage.svg?key_text=Test+Coverage&key_width=130)](https://gitlab.inf.unibz.it/ttst2122_secondyear/team-b/-/commits/main)
+## White-Box Testing
+### Tools used:
+#### Unit Tests
+#### Integration Tests
+#### Test-Driven-Development
+#### Pipelines
+#### JaCoCo
+
+## UI Testing
+### Tools used:
+#### Selenium
