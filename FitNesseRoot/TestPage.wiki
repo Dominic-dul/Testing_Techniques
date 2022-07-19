@@ -1,0 +1,35 @@
+!path C:\Users\domuk\Desktop\semester4\TTST\labs\team-b\target\classes
+This is a test page for the Auction system placeBid method acceptance tests.
+For this method, there are two possible outcomes: whether the bid placement is successful or not.
+The bid placement successfulness depends on these four factors:
+
+1. If an auction exists, then the bid is allowed to be placed
+        -To place a bid on an existing auction, you have to provide an existing auction ID;
+
+| test.PlaceBidFitnesseTest |
+| newBid | startPrice | auctionId | invalidAuctionTest? |
+| 15.0 | 10.0 | 0 | true |
+| 15.0 | 10.0 | 156 | false |
+
+2. If an auction is opened (current time > auction start time) then the bid is allowed to be placed
+        -auctionStartedBefore filed describes when did the auction start (in milliseconds)
+
+| test.PlaceBidFitnesseTest |
+| newBid | startPrice | auctionStartedBefore | notOpenedAuctionTest? |
+| 15.0 | 10.0 | 1000 | true |
+| 15.0 | 10.0 | -1 | false |
+
+3. If the auction has not ended yet, the bid is allowed to be placed;
+        -auctionDuration is at what time does the auction end. It should be provided in milliseconds
+
+| test.PlaceBidFitnesseTest |
+| newBid | startPrice | auctionDuration | auctionExpiredTest? |
+| 15.0 | 10.0 | 10000 | true |
+| 15.0 | 10.0 | -1 | false |
+
+4. If the new bid is higher than the old bid, the bid is allowed to be placed
+
+| test.PlaceBidFitnesseTest |
+| newBid | startPrice | checkPriceValidityTest? |
+| 15.0 | 10.0 | true |
+| 15.0 | 16.0 | false |

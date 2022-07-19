@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"it.unibz.inf.be"},{"l":"it.unibz.inf.bl"},{"l":"it.unibz.inf.model"},{"l":"it.unibz.inf.ui"},{"l":"it.unibz.inf.util"}];updateSearchResults();

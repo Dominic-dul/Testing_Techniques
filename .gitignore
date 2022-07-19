@@ -1,0 +1,13 @@
+.DS_Store
+**/.DS_Store
+**/**/.DS_Store
+/target/
+FitnesseRoot/files
+FitnesseRoot/ErrorLog
+*.zip
+.vscode
+.idea
+.metadata
+.classpath
+.settings
+.project
